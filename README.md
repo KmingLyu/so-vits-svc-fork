@@ -93,6 +93,8 @@ Install this via pip (or your favourite package manager that uses pip):
 ```shell
 python -m pip install -U pip setuptools wheel
 pip install -U torch torchaudio --index-url https://download.pytorch.org/whl/cu118
+apt-get update
+apt-get install gcc
 pip install -U so-vits-svc-fork
 ```
 
